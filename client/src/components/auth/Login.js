@@ -16,12 +16,10 @@ class Login extends Component {
 	}
 	onSubmit(e) {
 		e.preventDefault();
-		const newLogin = {
+		const user = {
 			email: this.state.email,
 			password: this.state.password
 		}
-		console.log(this.state);
-		console.log(newLogin);
 	}
 
 	render() {
