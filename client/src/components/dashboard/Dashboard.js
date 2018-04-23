@@ -7,7 +7,6 @@ import Spinner from '../common/Spinner';
 import ProfileActions from './ProfileActions';
 import Experience from './Experience';
 import Education from './Education';
-import { deleteExperience } from '../../actions/profileActions';
 
 class Dashboard extends Component {
 
