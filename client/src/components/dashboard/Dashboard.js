@@ -33,7 +33,7 @@ componentDidMount() {
 						<ProfileActions />
 						{/* TODO: exp and edu */}
 						<div style={{ marginBottom: '60px' }}>
-							<button onClick={this.onDeleteClick.bind(this)} className="btn btn-danger">Delete My Account</button>
+							<button onClick={this.onDeleteClick.bind(this)} className="btn btn-danger btn-sm">Delete My Account</button>
 						</div>
 					</div>
 				)
@@ -42,7 +42,7 @@ componentDidMount() {
 				dashboardContent = (
 					<div>
 						<p className="lead text-muted">Welcome {user.name}</p>
-						<p>You have not yet setup a profile, please add some info</p>
+						<p>You have not yet setup a profile, please add some info.</p>
 						<Link to="/create-profile" className="btn btn-lg btn-info">Create Profile</Link>
 					</div>
 				);
